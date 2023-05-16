@@ -6,6 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Oswald:wght@700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,16 +20,16 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item">
-                <a href="#">Главная</a>
+                <a href="#" class="nav__link nav__link_active">Главная</a>
             </li>
             <li class="nav__item">
-                <a href="#">Мероприятия</a>
+                <a href="#" class="nav__link">Мероприятия</a>
             </li>
             <li class="nav__item">
-                <a href="#">Контакты</a>
+                <a href="#" class="nav__link">Контакты</a>
             </li>
             <li class="nav__item">
-                <a href="#">Блог</a>
+                <a href="#" class="nav__link">Блог</a>
             </li>
         </ul>
     </nav>
@@ -41,6 +45,43 @@
         <button class="btn">
             УЗНАТЬ БОЛЬШЕ
         </button>
+    </section>
+    <section class="services center">
+        <article class="services__item">
+            <svg class="icon">
+                <use xlink:href="img/sprite.svg#Vector"></use>
+            </svg>
+            <h3 class="services__title">
+                Личные консультации
+            </h3>
+            <p class="services__desc">
+                Достижения поставленных целей бывает сложной задачей, но при правильной поддержке нет ничего не
+                возможного
+            </p>
+        </article>
+        <article class="services__item">
+            <svg class="icon">
+                <use xlink:href="img/sprite.svg#family-room"></use>
+            </svg>
+            <h3 class="services__title">
+                Семейная терапия
+            </h3>
+            <p class="services__desc">
+                У любой семьи бывают кризисные ситуации, поэтому в такие моменты важно поддерживать друг друга
+            </p>
+        </article>
+        <article class="services__item">
+            <svg class="icon">
+                <use xlink:href="img/sprite.svg#network"></use>
+            </svg>
+            <h3 class="services__title">
+                Сенситивные группы
+            </h3>
+            <p class="services__desc">
+                Групповые занятия — отличное место, чтобы научиться общаться с окружающими людьми и раскрыть свой
+                потенциал
+            </p>
+        </article>
     </section>
 </main>
 
