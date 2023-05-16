@@ -15,6 +15,7 @@
   &_bordered {
     border-color: var(--accent-dark-color);
     background: transparent;
+    border-radius: var(--border-radius);
 
     &:hover {
       scale: 110%;

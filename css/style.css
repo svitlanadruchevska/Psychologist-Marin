@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn_bordered {
   border-color: var(--accent-dark-color);
   background: transparent;
+  border-radius: var(--border-radius);
 }
 .btn_bordered:hover {
   scale: 110%;
@@ -106,7 +107,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon {
+  max-height: 56px;
   fill: #4A5E5E;
+  margin: 0;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  gap: 90px;
+  bottom: 37px;
+}
+.services__item {
+  text-align: center;
+  max-width: 300px;
+}
+.services__title {
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--accent-dark-color);
+  margin: 20px 0 30px;
+}
+.grid-first {
+  top: 37px;
+  display: grid;
 }
 
 /*# sourceMappingURL=style.css.map */
