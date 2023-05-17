@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 250px;
+  width: 250px;
   min-height: 40px;
   box-sizing: border-box;
   border: 3px solid transparent;
@@ -10,21 +10,19 @@
   background: var(--accent-dark-color);
   color: #fff;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
   cursor: pointer;
-
-  &_bordered {
-    border-color: var(--accent-dark-color);
-    background: transparent;
-    border-radius: var(--border-radius);
-
-    &:hover {
-      scale: 110%;
-      transition: 1s;
-    }
-  }
 
   &:hover {
     scale: 110%;
     transition: 1s;
   }
+
+  &_bordered {
+    border-color: var(--accent-dark-color);
+    background: transparent;
+    border-radius: var(--border-radius);
+  }
+
 }

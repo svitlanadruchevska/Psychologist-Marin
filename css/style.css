@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 250px;
+  width: 250px;
   min-height: 40px;
   box-sizing: border-box;
   border: 3px solid transparent;
@@ -34,20 +34,18 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--accent-dark-color);
   color: #fff;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
   cursor: pointer;
+}
+.btn:hover {
+  scale: 110%;
+  transition: 1s;
 }
 .btn_bordered {
   border-color: var(--accent-dark-color);
   background: transparent;
   border-radius: var(--border-radius);
-}
-.btn_bordered:hover {
-  scale: 110%;
-  transition: 1s;
-}
-.btn:hover {
-  scale: 110%;
-  transition: 1s;
 }
 
 .header {
@@ -117,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 60px;
+  padding-top: 60px;
+  padding-bottom: 37px;
   gap: 90px;
-  bottom: 37px;
 }
 .services__item {
   text-align: center;
@@ -131,9 +129,40 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--accent-dark-color);
   margin: 20px 0 30px;
 }
-.grid-first {
-  top: 37px;
+.services__desc {
+  margin: 0;
+}
+
+.about {
+  box-sizing: border-box;
+  background: url("../../img/counter-bg-1.jpg") center/cover;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.grid-about {
   display: grid;
+  grid-template-columns: 625px 1fr;
+  grid-template-rows: 54px 150px 40px;
+  gap: 50px;
+}
+.grid-about:nth-child(2) {
+  grid-row: span 3;
+}
+.grid-about_btn {
+  display: flex;
+  gap: 30px;
+}
+.grid-about__title {
+  font-size: 36px;
+  margin: 0;
+}
+.grid-about__desc {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

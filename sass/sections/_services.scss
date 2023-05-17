@@ -9,9 +9,10 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 60px;
+  padding-top: 60px;
+  padding-bottom: 37px;
   gap: 90px;
-  bottom: 37px;
+
 
   &__item {
     text-align: center;
@@ -26,5 +27,6 @@
   }
 
   &__desc {
+    margin: 0;
   }
 }

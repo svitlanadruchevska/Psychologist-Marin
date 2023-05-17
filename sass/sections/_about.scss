@@ -1,0 +1,35 @@
+.about {
+  box-sizing: border-box;
+  background: url("../../img/counter-bg-1.jpg") center / cover;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+
+}
+
+.grid-about {
+  display: grid;
+  grid-template-columns: 625px 1fr;
+  grid-template-rows: 54px 150px 40px;
+  gap: 50px;
+
+  &:nth-child(2) {
+    grid-row: span 3;
+  }
+
+  &_btn {
+    display: flex;
+    gap: 30px;
+  }
+  &__title{
+    font-size: 36px;
+    margin: 0;
+  }
+  &__desc {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
