@@ -113,47 +113,81 @@
     </section>
     <section class="form center">
         <div class="grid-form">
-            <h3 class="grid-form__title">
-                Записаться на прием
-            </h3>
+            <div class="grid-form__cell">
+                <h3 class="grid-form__title">
+                    Записаться на прием
+                </h3>
+            </div>
+            <div class="grid-form__cell">
+                <label>
+                    <input type="text" name="Ваше имя" class="grid-form__input" placeholder="Ваше имя *">
+                </label>
+            </div>
+            <div class="grid-form__cell">
+                <label>
+                    <input type="text" name="Ваш телефон" class="grid-form__input" placeholder="Ваш телефон *">
+                </label>
+            </div>
+            <div class="grid-form__cell">
+                <label>
+                    <input list="Тема встречи" class="grid-form__input" placeholder="Тема встречи *">
+                    <datalist id="Тема встречи">
+                        <option value=" "></option>
+                        <option value=" "></option>
+                        <option value=" "></option>
+                        <option value=" "></option>
+                    </datalist>
+                </label>
+            </div>
+            <div class="grid-form__cell">
+                <label>
+                    <input type="text" name="Пожелания" class="grid-form__input" placeholder="Пожелания">
+                </label>
+            </div>
+            <div class="grid-form__cell">
+                <label class="checkbox-group">
+                    <input type="checkbox" name="checkbox" class="grid-form__input grid-form__input_checkbox" required>
+                    <span class="checkbox-new"></span>
+                    <span class="checkbox-new__info">
+                    Я согласен с политикой конфиденциальности
+                    </span>
+                </label>
+            </div>
+            <div class="grid-form__cell">
+                <button class="btn btn_form">
+                    Отправить
+                </button>
+            </div>
         </div>
-        <div class="grid-form">
-            <label>
-                <input type="text" class="grid-form__input">
-            </label>
-        </div>
-        <div class="grid-form">
-            <label>
-                <input type="text" class="grid-form__input">
-            </label>
-        </div>
-        <div class="grid-form">
-            <label>
-                <input type="text" class="grid-form__input">
-            </label>
-        </div>
-        <div class="grid-form">
-            <label>
-                <input type="text" class="grid-form__input">
-            </label>
-        </div>
-        <div class="grid-form">
-            <label>
-                <input type="checkbox" class="grid-form__input">
-                Я согласен с политикой конфиденциальности
-            </label>
-        </div>
-        <div class="grid-form">
-            <label>
-                <input type="text" class="grid-form__input grid-form__input_checkbox">
-            </label>
-        </div>
-        <div class="grid-form">
-            <button class="btn">
-                Отправить
-            </button>
-        </div>
-
+    </section>
+    <section class="promo center">
+        <h3 class="promo__name">
+            120 мин
+        </h3>
+        <p class="promo__title">
+            Время консультации
+        </p>
+        <p class="promo__desc">
+            Оптимально для того, чтобы найти выход и сделать очередной шаг
+        </p>
+        <h3 class="promo__name">
+            от 200 грн
+        </h3>
+        <p class="promo__title">
+            Стоимость
+        </p>
+        <p class="promo__desc">
+            Цена доступна для любого человека, нуждающего в помощи
+        </p>
+        <h3 class="promo__name">
+            75+
+        </h3>
+        <p class="promo__title">
+            Довольных клиентов
+        </p>
+        <p class="promo__desc">
+            Результат — улыбка на лице и ощущение счастья
+        </p>
     </section>
 </main>
 </body>
