@@ -9,7 +9,7 @@
 .grid-about {
   display: grid;
   grid-template-columns: 625px 495px;
-  grid-template-rows: 54px minmax(150px) 40px;
+  grid-template-rows: 54px minmax(150px, 0) 40px;
   gap: 50px;
 
   &:nth-child(2) {

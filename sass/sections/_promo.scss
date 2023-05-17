@@ -1,0 +1,38 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  background: url("../../img/counter-bg-2.jpg");
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__item{
+    text-align: center;
+  }
+  &__name{
+    margin: 0;
+    font-weight: 900;
+    font-size: 48px;
+  }
+  &__title{
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  &__desc{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
