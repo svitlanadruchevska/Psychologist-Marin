@@ -8,7 +8,7 @@
 .grid-form {
   display: grid;
   grid-template-columns: 369px 372px;
-  grid-template-rows: 72px repeat(5, 38px);
+  grid-template-rows: 72px repeat(5, 24px);
   gap: 30px;
   justify-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
 
   &__input {
     height: 100%;
-    padding: 0 0 0 20px;
+    padding: 7px;
     border-radius: var(--border-radius);
     border: 1px solid;
 
@@ -30,16 +30,10 @@
       width: 347px;
     }
 
-    &:nth-child(6) {
-      width: 350px;
-      height: 180px;
-    }
-
     &:focus {
       scale: 105%;
       transition: 1s;
     }
-
 
     &_checkbox {
       display: none;
@@ -85,7 +79,6 @@
 
     }
   }
-
 
   .checkbox-new {
     width: 16px;

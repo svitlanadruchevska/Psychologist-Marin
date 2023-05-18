@@ -7,14 +7,26 @@
 
 
   &__carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
     position: relative;
     padding: 20px 25px;
     margin: 0;
     max-width: 550px;
     text-align: center;
     background: var(--card-bg-color) no-repeat center;
-
   }
+
+  &__all {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+
 
   &__title {
     padding-top: 60px;
@@ -35,5 +47,23 @@
     margin: 0;
     padding: 0;
   }
+
+  &__arrow-btn {
+    border: none;
+    background: url("../../img/arrow-2.svg") no-repeat center;
+    margin-right: 43px;
+
+    &_1 {
+      margin-left: 43px;
+      background: url("../../img/arrow-1.svg") no-repeat center;
+    }
+
+    &:hover, :focus {
+      transition: 2s;
+      scale: 150%;
+    }
+  }
 }
+
+
 

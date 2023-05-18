@@ -3,7 +3,8 @@
   flex-direction: column;
   box-sizing: border-box;
   justify-content: center;
-  background: url("../../img/counter-bg-2.jpg");
+  gap: 84px;
+  background: url("../../img/counter-bg-1.jpg") center / cover;
   color: #fff;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -15,24 +16,53 @@
     padding: 0;
     margin: 0;
   }
-  &__item{
+
+  &__item {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
-  &__name{
+
+  &__name {
     margin: 0;
     font-weight: 900;
     font-size: 48px;
   }
-  &__title{
+
+  &__img {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__title {
     margin: 0;
     padding: 20px 0 20px 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.33;
   }
-  &__desc{
+
+  &__desc {
     margin: 0;
     font-weight: 500;
     font-size: 16px;
+
+    &_href {
+      text-decoration: none;
+      text-align: left;
+      max-width: 334px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.33;
+    }
+  }
+
+  &_news {
+    padding-bottom: 28px;
+    background: url("../../img/counter-bg-2.jpg") center / cover;
   }
 }
+
