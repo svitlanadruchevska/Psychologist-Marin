@@ -382,4 +382,31 @@ h1, h2, h3, h4, h5, h6 {
   scale: 150%;
 }
 
+.qq {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+.qq__icon {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+}
+.qq__icon::before {
+  background: url("../../img/close.svg");
+}
+.qq__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.qq__desc {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 900px;
+}
+
 /*# sourceMappingURL=style.css.map */

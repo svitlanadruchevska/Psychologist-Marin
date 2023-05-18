@@ -1,0 +1,40 @@
+.qq {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+
+  &__icon {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.33;
+    &::before{
+      background: url("../../img/close.svg");
+    }
+
+    &_open {
+
+    }
+
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  &__desc {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 900px;
+  }
+
+  &__name {
+
+  }
+
+}
+
