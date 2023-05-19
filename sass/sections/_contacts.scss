@@ -6,8 +6,6 @@
   box-sizing: border-box;
   background: url("img/map.jpg") no-repeat center;
 
-
-
   &__info {
     max-width: 1170px;
     position: absolute;
@@ -38,6 +36,10 @@
   &__icon {
     text-decoration: none;
     color: #000;
+    &:hover{
+      opacity: 50%;
+      transition: 1s;
+    }
   }
 
   &__map {

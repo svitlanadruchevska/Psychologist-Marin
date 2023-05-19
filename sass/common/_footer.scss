@@ -1,0 +1,28 @@
+.socials {
+  box-sizing: border-box;
+  background: var(--accent-dark-color) center;
+
+
+  &__contacts {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.icon-footer {
+  max-width: 18px;
+  max-height: 18px;
+  fill: #fff;
+  margin: 0;
+  &:hover{
+    scale: 120%;
+    transition: 2s;
+  }
+}
+.logo{
+  margin-right: 50px;
+}

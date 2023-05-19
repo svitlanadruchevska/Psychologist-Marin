@@ -74,6 +74,9 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   margin: 0;
 }
+.nav__list_footer {
+  gap: 30px;
+}
 .nav__link {
   text-decoration: none;
   color: var(--main-color);
@@ -90,11 +93,21 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 100%;
 }
+.nav__link:hover {
+  opacity: 50%;
+  transition: 1s;
+}
 .nav__link_active {
   color: var(--accent-color);
 }
 .nav__link_active:before {
   background: currentColor;
+}
+.nav_footer {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .offer {
@@ -357,6 +370,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   line-height: 1.33;
 }
+.promo__desc_href:hover {
+  opacity: 50%;
+}
 .promo_news {
   padding-bottom: 28px;
   background: url("../../img/counter-bg-2.jpg") center/cover;
@@ -437,6 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 48px;
   text-align: center;
+  padding-bottom: 79px;
 }
 .qq__desc {
   padding-bottom: 40px;
@@ -485,8 +502,40 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: #000;
 }
+.contacts__icon:hover {
+  opacity: 50%;
+  transition: 1s;
+}
 .contacts__map {
   max-width: 100%;
+}
+
+.socials {
+  box-sizing: border-box;
+  background: var(--accent-dark-color) center;
+}
+.socials__contacts {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.icon-footer {
+  max-width: 18px;
+  max-height: 18px;
+  fill: #fff;
+  margin: 0;
+}
+.icon-footer:hover {
+  scale: 120%;
+  transition: 2s;
+}
+
+.logo {
+  margin-right: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
