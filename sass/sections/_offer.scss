@@ -1,10 +1,11 @@
 .offer {
   padding-top: 241px;
   padding-bottom: 161px;
-  background: url("../../img/photomainoffer.jpg") center / cover;
+  background: url("../img/photomainoffer.jpg") center / cover;
   color: #fff;
 
   &__title {
+    font-weight: 700;
     font-size: 48px;
     margin: 0 0 55px;
     max-width: 454px;

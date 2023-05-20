@@ -2,7 +2,6 @@
   box-sizing: border-box;
   background: var(--accent-dark-color) center;
 
-
   &__contacts {
     display: flex;
     justify-content: left;
@@ -18,11 +17,13 @@
   max-height: 18px;
   fill: #fff;
   margin: 0;
-  &:hover{
+
+  &:hover {
     scale: 120%;
     transition: 2s;
   }
 }
-.logo{
+
+.logo {
   margin-right: 50px;
 }

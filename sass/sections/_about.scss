@@ -1,6 +1,6 @@
 .about {
   box-sizing: border-box;
-  background: url("../../img/counter-bg-1.jpg") center / cover;
+  background: url("../img/counter-bg-1.jpg") center / cover;
   color: #fff;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -20,11 +20,14 @@
     display: flex;
     gap: 30px;
   }
-  &__title{
+
+  &__title {
     font-size: 36px;
     margin: 0;
   }
+
   &__desc {
+    font-weight: 700;
     font-size: 16px;
     margin: 0;
   }
